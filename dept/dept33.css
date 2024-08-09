@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    background-repeat: no-repeat;
+}
+.main{
+    padding: 100px 0;
+    background: blueviolet;
+    width: 90%;
+    margin: auto;
+
+}
+.container{
+    margin: 0 auto 20px;
+    width: 80%;
+    background: brown;
+}
+.container h2{
+    color: antiquewhite;
+    font-size: 40px;
+}
+.container p{
+    color: aquamarine;
+    font-size: 30px;
+}
+.members{
+    display: flex;
+    justify-content: space-between;
+}
+.member{
+    width: 24%;
+}
+.member img{
+    width: 100%;
+}
+.dept-head{
+    background: skyblue;
+    padding: 100px 0;
+    width: 90%;
+    margin: auto;
+}
+.dept-container{
+    margin: auto;
+    width: 80%;
+}
+.dept-members{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.dept-member{
+    width: 24%;
+    position: relative;
+    overflow: hidden;
+}
+.dept-member img{
+    width: 100%;
+    display: block;
+}
+.dept-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+
+}
+.dept-overlay h3{
+    color: white;
+    letter-spacing: 3px;
+}
+.dept-overlay h4{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.dept-member:hover .dept-overlay{
+    top: 0;
+}

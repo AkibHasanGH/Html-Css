@@ -1,0 +1,67 @@
+.Feb{
+    margin: 0;
+
+}
+
+.jan{
+    background: pink;
+}
+.Feb{
+    background: gray;
+    text-align: center;
+}
+.jun > h2{
+    text-align: center;
+    
+}
+.baba{
+    height: 200px;
+    background-color: aquamarine;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-start;
+}
+.meye{
+    background: rebeccapurple;
+    height: 30%;
+    width: 1000px;
+}
+.chele{
+    background: red;
+    height: 30%;
+    width: 1000px;
+}
+.main-section{
+    background: blanchedalmond;
+    width: 100%;
+    margin-top: 10px;
+}
+.container{
+    padding: 30px;
+    
+    margin: 20px auto;
+}
+.container img{
+    width: 30%;
+
+}
+.section{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 50%;
+}
+.right button{
+    background: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+

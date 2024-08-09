@@ -1,0 +1,23 @@
+@media(max-width:991px){
+
+    .teamtitle{
+        width: 100%;
+    }
+    .teamtitle h2{
+        color: aqua;
+    }
+    .members{
+        width: 48%;
+    }
+    .deptmember{
+        width: 100%;
+        margin-bottom: 15px;
+        
+    }
+}
+@media(max-width:552px) {
+    .members{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}

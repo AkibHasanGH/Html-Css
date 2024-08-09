@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    background-repeat: no-repeat;
+    font-family: "sedan", serif;
+}
+.main {
+    padding: 100px 0;
+    background: skyblue;
+}
+.container {
+    margin: auto;
+    width: 87%;
+    background: red;
+
+}
+.title {
+    margin: 0 auto 100px;
+    width: 87%;
+    text-align: center;
+    background: white;
+
+}
+.title h2{
+    color: aquamarine;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+.title p{
+    font-size: 30px;
+}
+.team-members {
+    display: flex;
+    justify-content: space-between;
+}
+.team-member {
+    width: 24%;
+}
+.team-member img{
+    width: 100%;
+}
+.team-member h2{}
+
+
+
+.dept-head {
+    background: violet;
+    padding: 100px 0;
+}
+.dept-container {
+    margin: auto;
+    width: 87%;
+    background: blue;
+    
+}
+.dept-members {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+
+}
+.dept-member {
+    width: 24%;
+    position: relative;
+    overflow: hidden;
+}
+.dept-member img{
+    width: 100%;
+    display: block;
+}
+.member-overlay {
+    background: rgba(0 ,0 ,0 , .7);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s;
+    opacity: ;
+
+}
+.member-overlay h3{
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.member-overlay h4{
+    color: white;
+    letter-spacing: 2px;
+}
+.dept-member:hover .member-overlay{
+    top: 0;
+} 

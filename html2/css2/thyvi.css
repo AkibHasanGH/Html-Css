@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: rgb(190, 189, 201);
+    text-decoration: none;
+}
+.january{
+   text-align: center;
+}
+.february{
+    background: blanchedalmond;
+    color: aliceblue;
+}
+.march{
+    background: orange;
+    color: aliceblue ;
+}
+.april{
+    padding: 50px 25px;
+}
+.may{
+    background: blanchedalmond ;
+    padding: 10px 25px;
+    color: aliceblue;
+    border-radius: 5px;
+    display: inline-block;
+}
+.june{
+    background: beige;
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
